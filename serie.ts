@@ -22,7 +22,7 @@ export class Serie {
         this.series = [this]; 
 
     } 
-    agregarSerie(serie:Serie){
+    agregarSerie(serie:Serie):void{
          if(this.series.length === 0){
             this.series = [];
         }else{
